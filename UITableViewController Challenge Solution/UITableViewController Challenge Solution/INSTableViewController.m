@@ -72,11 +72,15 @@
     
     if (indexPath.section == 0){
         cell.textLabel.text = @"I am in section 0";
+        [cell setBackgroundColor: [UIColor redColor]];
     } else if (indexPath.section == 1){
         cell.textLabel.text = @"another section";
+        [cell setBackgroundColor: [UIColor blueColor]];
     } else{
         NSInteger *rowNumber = indexPath.row;
-        NSString *rowNumberString =[NSString stringWithFormat:@"Row %d", rowNumber];
+        NSString *rowNumberString =[NSString stringWithFormat:@"cell %d", rowNumber];
+        
+        [cell setBackgroundColor: [UIColor yellowColor]];
         
         cell.textLabel.text = rowNumberString;
     }
