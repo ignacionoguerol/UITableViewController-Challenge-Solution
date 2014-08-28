@@ -14,13 +14,13 @@
 		6665C6A719AF340700547094 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6665C6A619AF340700547094 /* main.m */; };
 		6665C6AB19AF340700547094 /* INSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6665C6AA19AF340700547094 /* INSAppDelegate.m */; };
 		6665C6AE19AF340700547094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6665C6AC19AF340700547094 /* Main.storyboard */; };
-		6665C6B119AF340700547094 /* INSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6665C6B019AF340700547094 /* INSViewController.m */; };
 		6665C6B319AF340700547094 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6665C6B219AF340700547094 /* Images.xcassets */; };
 		6665C6BA19AF340700547094 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6665C6B919AF340700547094 /* XCTest.framework */; };
 		6665C6BB19AF340700547094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6665C69A19AF340700547094 /* Foundation.framework */; };
 		6665C6BC19AF340700547094 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6665C69E19AF340700547094 /* UIKit.framework */; };
 		6665C6C419AF340700547094 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6665C6C219AF340700547094 /* InfoPlist.strings */; };
 		6665C6C619AF340700547094 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6665C6C519AF340700547094 /* UITableViewController_Challenge_SolutionTests.m */; };
+		6665C6D119AF350800547094 /* INSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6665C6D019AF350800547094 /* INSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		6665C6A919AF340700547094 /* INSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INSAppDelegate.h; sourceTree = "<group>"; };
 		6665C6AA19AF340700547094 /* INSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INSAppDelegate.m; sourceTree = "<group>"; };
 		6665C6AD19AF340700547094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6665C6AF19AF340700547094 /* INSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INSViewController.h; sourceTree = "<group>"; };
-		6665C6B019AF340700547094 /* INSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INSViewController.m; sourceTree = "<group>"; };
 		6665C6B219AF340700547094 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6665C6B819AF340700547094 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6665C6B919AF340700547094 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6665C6C119AF340700547094 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		6665C6C319AF340700547094 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6665C6C519AF340700547094 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		6665C6CF19AF350800547094 /* INSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INSTableViewController.h; sourceTree = "<group>"; };
+		6665C6D019AF350800547094 /* INSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				6665C6A919AF340700547094 /* INSAppDelegate.h */,
 				6665C6AA19AF340700547094 /* INSAppDelegate.m */,
 				6665C6AC19AF340700547094 /* Main.storyboard */,
-				6665C6AF19AF340700547094 /* INSViewController.h */,
-				6665C6B019AF340700547094 /* INSViewController.m */,
+				6665C6CF19AF350800547094 /* INSTableViewController.h */,
+				6665C6D019AF350800547094 /* INSTableViewController.m */,
 				6665C6B219AF340700547094 /* Images.xcassets */,
 				6665C6A119AF340700547094 /* Supporting Files */,
 			);
@@ -252,7 +252,7 @@
 			files = (
 				6665C6A719AF340700547094 /* main.m in Sources */,
 				6665C6AB19AF340700547094 /* INSAppDelegate.m in Sources */,
-				6665C6B119AF340700547094 /* INSViewController.m in Sources */,
+				6665C6D119AF350800547094 /* INSTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
